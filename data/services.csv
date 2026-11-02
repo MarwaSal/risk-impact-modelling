@@ -1,0 +1,41 @@
+service_id,service_name,internet_facing,data_tier,data_tier_weight
+SVC001,api-gateway,True,public,1
+SVC002,web-frontend,True,public,1
+SVC003,identity-service,True,confidential,3
+SVC004,customer-profile,False,confidential,3
+SVC005,catalog-service,True,internal,2
+SVC006,product-search,True,internal,2
+SVC007,order-service,False,confidential,3
+SVC008,payment-service,False,highly confidential,4
+SVC009,billing-service,False,highly confidential,4
+SVC010,inventory-service,False,internal,2
+SVC011,shipping-service,False,internal,2
+SVC012,notification-service,True,internal,2
+SVC013,email-worker,False,internal,2
+SVC014,audit-service,False,highly confidential,4
+SVC015,analytics-service,False,confidential,3
+SVC016,recommendation-engine,False,internal,2
+SVC017,reviews-service,True,public,1
+SVC018,media-storage,False,confidential,3
+SVC019,document-service,False,highly confidential,4
+SVC020,reporting-service,False,confidential,3
+SVC021,pricing-service,False,internal,2
+SVC022,promotion-service,True,internal,2
+SVC023,checkout-service,True,confidential,3
+SVC024,fraud-detection,False,highly confidential,4
+SVC025,session-store,False,confidential,3
+SVC026,feature-flags,False,internal,2
+SVC027,configuration-service,False,internal,2
+SVC028,secrets-vault,False,highly confidential,4
+SVC029,event-bus,False,internal,2
+SVC030,job-scheduler,False,internal,2
+SVC031,fulfillment-service,False,confidential,3
+SVC032,returns-service,False,confidential,3
+SVC033,support-portal-api,True,confidential,3
+SVC034,partner-integration,True,confidential,3
+SVC035,tax-calculator,False,internal,2
+SVC036,search-indexer,False,internal,2
+SVC037,data-export-service,False,highly confidential,4
+SVC038,consent-service,False,confidential,3
+SVC039,rate-limiter,False,internal,2
+SVC040,health-monitor,True,public,1
