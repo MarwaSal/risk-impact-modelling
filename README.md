@@ -90,13 +90,13 @@ Open limitations are tracked as [issues](../../issues).
 pip install -r requirements.txt
 ```
 
-Open `blast-radius-risk-model.ipynb` and run all cells in order. The data is in the repository root.
+Open `blast-radius-risk-model.ipynb` and run all cells in order.
 
 ## Repository
 
 ```
 ├── README.md
-├── requirements.txt       pinned versions
+├── requirements.txt      
 ├── blast-radius-risk-model.ipynb    the analysis
 ├── services.csv
 └── dependencies.csv
