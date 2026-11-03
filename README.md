@@ -18,7 +18,7 @@ A severity score cannot answer it. Every instance of the same vulnerability carr
 
 ## Why AI matters here
 
-The PHP flaws were found with AI assistance — code that had sat flawed for over a decade, turned into a working exploit. That is the shift this work is built around: as AI shortens the window between a vulnerability being discovered and being exploitable, likelihood moves towards certainty, and estimating it adds less. The useful question becomes consequence — and consequence is computable from structure.
+The PHP flaws were found with AI assistance — code that had sat flawed for over a decade, turned into a working exploit. That is the shift this work is built around: as AI shortens the window between a vulnerability being discovered and being exploitable, likelihood moves towards certainty. The useful question becomes consequence — and consequence is computable from structure.
 
 ## The questions
 
@@ -63,9 +63,9 @@ Internet-facing services carry an exposure factor of 1.0; internal services carr
 
 | Service | Data tier | Impact | Rank v1 | Rank v3 |
 |---|---|---|---|---|
-| configuration-service | 2 (internal) | 101 | 29 | **2** |
-| event-bus | 2 (internal) | 101 | 29 | **2** |
-| inventory-service | 2 (internal) | 14 | 29 | **12** |
+| configuration-service | 2  | 101 | 29 | **2** |
+| event-bus | 2  | 101 | 29 | **2** |
+| inventory-service | 2  | 14 | 29 | **12** |
 
 **Classifying data tells you what a service holds. It tells you nothing about what you lose when it fails.**
 
