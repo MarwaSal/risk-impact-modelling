@@ -77,7 +77,7 @@ The check is also around 130× slower, because it filters the whole table at eve
 
 ## Assumptions and limitations
 
-- **Likelihood is treated as certain.** This is modelled with the AI threat landscape in mind: AI is shortening the window between a vulnerability being discovered and being exploitable. As that window narrows, likelihood moves towards certainty and estimating it adds less — so the useful question becomes consequence, and consequence is computable from structure.
+- **Likelihood is treated as certain.** This is modelled with the AI threat landscape in mind: AI is shortening the window between a vulnerability being discovered and being exploitable. As that window narrows, likelihood moves towards certainty — so the useful question becomes consequence, and consequence is computable from structure.
 - **The dependency data is assumed complete.** The analysis is only as good as it is.
 - **Edges are binary.** A weak dependency counts the same as a strong one.
 - **Security controls are not modelled**, deliberately: the question is what happens regardless of whether they hold.
