@@ -1,6 +1,6 @@
 # Quantifying structural impact in the AI threat landscape
 
-A graph-based method for prioritising remediation when a vulnerability affects everything at once.
+A graph-based method for prioritising remediation when a vulnerability affects system components at once.
 
 **[Open the notebook in Colab](https://colab.research.google.com/github/MarwaSal/risk-impact-modelling/blob/main/blast-radius-risk-model.ipynb)**
 
