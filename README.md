@@ -16,7 +16,7 @@ A severity score cannot answer it. Every instance of the same vulnerability carr
 
 **The answer has to come from the structure.**
 
-## Why AI matters here
+## The role of GenAI
 
 The PHP flaws were found with AI assistance — code that had sat flawed for over a decade, turned into a working exploit. That is the shift this work is built around: as AI shortens the window between a vulnerability being discovered and being exploitable, likelihood moves towards certainty. The useful question becomes consequence — and consequence is computable from structure.
 
